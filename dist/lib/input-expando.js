@@ -32,7 +32,7 @@ var _formField = require('./form-field');
 
 var _formField2 = _interopRequireDefault(_formField);
 
-var _unicorns = require('unicorns');
+var _unicorns = require('../unicorns');
 
 var _input = require('./input');
 
