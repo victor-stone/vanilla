@@ -1,0 +1,5 @@
+"use strict";
+
+var css = "\n\n.outlet-wrap { \n  padding-top: 130px; \n}\n\n.subnav-option-bar {\n  position: fixed;\n  top: 60px;\n  left: 0px;\n  width: 100%;\n  opacity: 0.9;\n  z-index: 11;\n}\n\n.subnav-option-bar .subnav-tabs li a .badge { \n  margin-left: 8px; \n}\n\n.subnav-option-bar .paging {\n  display: inline-block;\n  margin-left: 18px;\n  float: right;\n}\n\n.subnav-option-bar .paging .pagination {\n  margin-right: 8px;\n  margin-top: 3px;\n  margin-bottom: 3px;\n  font-size: 10px;\n  float: left;\n}\n\n.subnav-option-bar .paging-caption {\n  display: inline-block;\n  margin-right: 12px;\n  margin-left: 12px;\n  margin-top: 12px;\n  color: white;\n  clear: none;\n  width: initial;\n}\n\n.subnav-option-bar .limit-label {\n  color: white;\n  margin-right: 12px;\n}\n\n@media screen and (max-width: 770px) {\n\n  .subnav-option-bar .paging {\n    position: absolute;\n    top: 10px;\n    right: 20px;    \n  }\n\n  .subnav-option-bar .paging > label.limit-label,\n  .subnav-option-bar .paging > div.paging-caption {\n    display: none;\n  }\n\n}\n";
+module.exports = css;
+//
