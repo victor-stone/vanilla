@@ -1,0 +1,24 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "A collection of vanilla React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-stone/vanilla.git"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "generic"
+  ],
+  "author": "Victor Stone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victor-stone/vanilla/issues"
+  },
+  "homepage": "https://github.com/victor-stone/vanilla#readme"
+}
