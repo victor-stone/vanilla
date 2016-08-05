@@ -21,28 +21,11 @@
     "url": "https://github.com/victor-stone/vanilla/issues"
   },
   "homepage": "https://github.com/victor-stone/vanilla#readme",
-  "browserify": {
-    "transform": [
-      "babelify",
-      "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "react": "global:React",
-    "react-dom": "global:ReactDOM"
-  },
-  "dependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.13.2",
+  "devDependencies": {
     "babel-plugin-transform-runtime": "^6.12.0",
     "gulp-babel": "^6.1.2",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "redux": "^3.5.2",
-    "request": "^2.74.0",
-    "vanilla": "git+https://github.com/victor-stone/vanilla.git"
-  },
-  "devDependencies": {
     "babel-core": "^6.13.1",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.13.1",
