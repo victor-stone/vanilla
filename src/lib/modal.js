@@ -103,14 +103,6 @@ class ModalPopup extends React.Component {
   }
 }
 
-ModalPopup.show = function(/*comp,props*/) {
-  throw new Error( '"show" was not implemented here - you probably want app/services/Modal');
-};
-
-ModalPopup.hide = function(/*comp,props*/) {
-  throw new Error( '"hide" was not implemented here - you probably want app/services/Modal');
-};
-
 Modal.Popup     = ModalPopup;
 
 module.exports = Modal;

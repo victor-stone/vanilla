@@ -5,7 +5,7 @@ import DeadLink     from './dead-link';
 import { bindAll,
         selectors }  from '../unicorns';
 
-import AjaxLoadingGlyph from '../services/ajax-loading-glyph';
+import LoadingGlyph from './loading-glyph';
 
 class AccordionButton extends React.Component
 {
@@ -115,7 +115,7 @@ class AccordionPanel extends React.Component
             </h4>
          </div>
         <div id={id} className={cls} > 
-          <AjaxLoadingGlyph color="black" />
+          <LoadingGlyph color="black" />
           {this.state.open 
             ? <div className={clsChild}>{children}</div>
             : null

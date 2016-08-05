@@ -34,9 +34,9 @@ var _deadLink2 = _interopRequireDefault(_deadLink);
 
 var _unicorns = require('../unicorns');
 
-var _ajaxLoadingGlyph = require('../services/ajax-loading-glyph');
+var _loadingGlyph = require('./loading-glyph');
 
-var _ajaxLoadingGlyph2 = _interopRequireDefault(_ajaxLoadingGlyph);
+var _loadingGlyph2 = _interopRequireDefault(_loadingGlyph);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -202,7 +202,7 @@ var AccordionPanel = function (_React$Component2) {
         _react2.default.createElement(
           'div',
           { id: id, className: cls },
-          _react2.default.createElement(_ajaxLoadingGlyph2.default, { color: 'black' }),
+          _react2.default.createElement(_loadingGlyph2.default, { color: 'black' }),
           this.state.open ? _react2.default.createElement(
             'div',
             { className: clsChild },

@@ -73,10 +73,6 @@ var Alert = _react2.default.createClass({
   }
 });
 
-Alert.show = function () /*type,msg*/{
-  throw new Error('"Alert.show" was not implemented here - you probably want app/services/Alert');
-};
-
 module.exports = Alert;
 
 //
